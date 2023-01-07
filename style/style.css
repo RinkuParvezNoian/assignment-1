@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+}
+
+/* The header area start from here */
+
+
+
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.heading-pannel {
+    display: flex;
+    justify-content: right;
+}
+
+.all-heading-element {
+    width: 25%;
+    text-align: right;
+    margin: 15em;
+}
+
+.main-heading {
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.heading-text {
+    margin-bottom: 20px;
+    color: rgb(109, 103, 103);
+}
+
+.header-btn {
+    background-color: chocolate;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    color: white;
+}
+
+
+
+/* the header area ended over there */
+
+
+
+/* the main area start from here */
+
+
+
+.main-pannel {
+    width: 60%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.all-main-element {
+    margin: 100px 0 0 100px;
+}
+
+.main-heading {
+    font-weight: 700;
+    font-size: 30px;
+}
+.main-area-img{
+    /* background-color: ; */
+}
+.main-text {
+    margin: 10px 0 10px 0;
+    color: rgb(109, 103, 103);
+}
+
+.main-list {
+    color: rgb(109, 103, 103);
+}
+
+
+
+/* The my plan area start from here */
+
+
+
+.my-plan-pannel {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.my-plan-title {
+    display: flex;
+    align-items: center;
+    margin: 20px auto 0 350px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.my-plan-element {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.my-plan-text {
+    color: rgb(109, 103, 103);
+}
+
+.text-title {
+    margin: 5px 0;
+}
+
+
+/* The my plan area ended over here */
+
+
+/* The Gradient area start from here */
+
+
+.gradient-pannel {
+    /* background-image: url('../images/watch.png'); */
+    background: linear-gradient(to right, rgba(194, 52, 52, 1), rgb(209, 197, 197, 0.01)), url('../images/watch.png');
+    /* background-image: url('../images/gradient2.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.gradient-title {
+    width: 50%;
+    margin: 0 0 0 50px;
+}
+
+.gradient-text {
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.gradient-btn {
+    padding: 12px 22px;
+    color: coral;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
+
+
+/* The gradient area ended over here */
+
+
+
+/* The footer area start from here */
+
+
+
+.main-footer {
+    background-color: black;
+    margin-top: 50px;
+    height: 50vh;
+}
+
+.footer-pannel {
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-element {
+    margin: 60px auto;
+}
+
+.footer-title {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.footer-text {
+    margin: 10px 400px 10px 0;
+}
+
+.footer-number {
+    margin: 10px 0;
+}
+
+.footer-sub-pannel {
+    margin: 60px auto;
+}
+
+.footer-sub {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.footer-email-pannel {
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin: 15px 0 8px 0;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.footer-btn-tag {
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: chocolate;
+}
+
+
+/* The footer area ended over here */
